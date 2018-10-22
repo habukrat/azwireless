@@ -159,16 +159,20 @@ h4 {
 }
 
 .review>p {
-  width: 75%;
-  font-family: 'Times New Roman';
-  background-color: rgba(0, 0, 0, 0.2);
+  width: 70%;
+  font-family: 'Arial';
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4%;
+  border-radius: 5px;
+  border: 1px solid #85857f;
 }
 
 
 
 .footer {
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 2.5vw;
+  font-family: 'Arial';
 }
 
 
@@ -196,6 +200,8 @@ h4 {
   text-align: left;
   width: 400px;
   height: 400px;
+  margin-top: -0.8rem;
+  font-family: 'Arial';
 }
 
 @media screen and (min-width: 1000px) {
