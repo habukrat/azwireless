@@ -98,15 +98,20 @@ h4 {
   margin-left: 10vw;
 }
 
+.fixes {
+  display: block;
+  text-align: left;
+  width: 180%;
+}
+
 #fix {
-  width: 80%;
-  font-family: 
   padding: 10px;
+  font-size: 2vw;
 }
 
 .mySlides {
-  width: 25%;
-  padding-left: 7rem;
+  width: 45%;
+  margin-left: 1.5rem;
 }
 
 .stock {
@@ -165,6 +170,7 @@ h4 {
   padding: 4%;
   border-radius: 5px;
   border: 1px solid #85857f;
+  box-shadow: 05px 10px 30px black;
 }
 
 
