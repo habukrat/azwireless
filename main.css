@@ -133,9 +133,15 @@ h4 {
   font-weight: bold;
 }
 
+.reviewBackground {
+  background-image: url("images/white_brick.jpg");
+  background-size: 500px;
+}
+
 #clients {
   text-align: center;
   margin-top: 3rem;
+  padding-top: 1.5rem;
   font-size: 4vw;
   color: #ff4d00;
   text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black;
@@ -166,7 +172,7 @@ h4 {
 .review>p {
   width: 70%;
   font-family: 'Arial';
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #a3a3a3;
   padding: 4%;
   border-radius: 5px;
   border: 1px solid #85857f;
