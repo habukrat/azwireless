@@ -2,6 +2,14 @@
     margin-left: 57px;
 }
 
+#tradeins {
+    font-size: 30px;
+}
+
+#copyright {
+    font-size: 10px;
+}
+
 /********** common setting **********/
 h2 {
     font-size: 2.8rem !important;
