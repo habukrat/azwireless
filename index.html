@@ -20,7 +20,7 @@
 <body>
     <!-- banner -->
     <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(images/store.jpg);">
-        <div class="container text-center text-md-left">
+        <div id="bannerContainer" class="container text-center text-md-left">
            <!--  <header>
                 <div class="row justify-content-between">
                     <div class="col-2">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </header> -->
-            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+            <h1 id="bannerTitle" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
             	A2Z Wireless<br>
             	Buy. Sell. Repair.
             </h1>
@@ -105,17 +105,13 @@
                 <h4 class="my-4">Trade-Ins & Buybacks</h4>
                 <p class="font-weight-bold" id="tradeins"><!-- <span class="display-2 font-weight-bold">0</span> --> New, Used <br>& Refurbished</p>
                 <ul class="list-unstyled">
-                    <li>Up to 5 Documents</li>
-                    <li>Up to 3 Reviews</li>
-                    <li>5 team Members</li>
-                    <li>Limited Support</li>
+                    <li>We proudly keep all our parts in stock <br> to minimize your inconvenience <br> and time "off the grid" without <br> a phone to use.</li>
                 </ul>
-                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a>
+                <a href="#contact" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Call Now</a>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
                 <h4 class="my-4">Repairs</h4>
-<!--                 <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">10</span> / MO.</p>
- -->                <ul class="list-unstyled">
+                <ul class="list-unstyled">
                     <li>Water Damage Repair</li>
                     <li>Glass Screen Repair</li>
                     <li>System Failure Repair</li>
@@ -126,24 +122,27 @@
                     <li>Charging Port Repair</li>
                     <li>Battery Replacement</li>
                 </ul>
-                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Free</a>
+                <a href="#contact" class="btn my-4 font-weight-bold atlas-cta cta-green">Call Now</a>
             </div>
             <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
-                <h4 class="my-4">Accessories</h4>
-                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">30</span> / MO.</p>
+                <h4 class="my-4">Cases & Accessories</h4>
+                <!-- <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">30</span> / MO.</p> -->
                 <ul class="list-unstyled">
-                    <li>Unlimited Documents</li>
-                    <li>Unlimited Reviews</li>
-                    <li>Unlimited Members</li>
-                    <li>Unlimited Support</li>
+                    <li>iPhone</li>
+                    <li>iPad</li>
+                    <li>Motorola</li>
+                    <li>LG</li>
+                    <li>HTC</li>
+                    <li>Samsung</li>
+                    <p class="font-weight-bold" id="tradeins">including durable Otterbox and Tech21</p>                
                 </ul>
-                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a>
+                <a href="#contact" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Call Now</a>
             </div>
         </div>
     </div>
     
     <!-- contact -->
-    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(images/accessories.jpg);">
+    <div id="contact" class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(images/accessories.jpg);">
         <div class="container my-5">
             <div class="row justify-content-between">
                 <div class="col-md-6 text-white">

@@ -20,6 +20,21 @@
     margin-top: 10px;
 }
 
+#banner {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#bannerTitle {
+    padding-top: 10px;
+}
+
+#bannerContainer {
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+
 
 /********** common setting **********/
 h2 {
