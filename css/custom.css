@@ -21,8 +21,9 @@
 }
 
 #banner {
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 0px;
+    margin-top: -50px;
 }
 
 #bannerTitle {
@@ -34,7 +35,35 @@
     padding-right: 0px
 }
 
+#threeblock {
+    margin-top: 0px !important;
+}
 
+.buttonColor {
+    background-color: #ff6e61 !important;
+}
+
+.orangeFont {
+    color: #ff6e61;
+}
+
+#clients {
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+
+#feature-first{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#feature {
+   margin-bottom: 0px !important; 
+}
+
+/*#feature-last{
+    padding-top: 0px;
+}*/
 
 /********** common setting **********/
 h2 {
@@ -185,7 +214,7 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #ff6e61;
 }
 
 #copyright #social-media a:hover i {
