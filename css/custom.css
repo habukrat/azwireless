@@ -83,8 +83,12 @@
   font-size: 3vw;
 }
 
-#iphonescreen {
+#iphone {
     max-width: 60%;
+}
+
+#samsung {
+    max-width: 50%;
 }
 
 
